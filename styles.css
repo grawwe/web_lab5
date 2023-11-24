@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    width: 900px;
+    height: auto;
+    background-color: #282727;
+    font-family: 'Work Sans', sans-serif;
+    color: #f7faf8;
+    padding: 0 15px;
+}
+
+.header, .footer{
+    width: auto;
+    height: 70px;
+    display: flex;
+
+}
+
+.header{
+    margin: 0 -1px 10px -1px;
+}
+
+.headBlock{
+    width: 16.6%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1px;
+    font-size: 14pt;
+}
+
+.headBlock:nth-child(1){
+    background-color: #3faeee;
+}
+
+.headBlock:nth-child(2){
+    background-color: #48c536;
+}
+
+.headBlock:nth-child(3){
+    background-color: #e7c116;
+}
+
+.headBlock:nth-child(4){
+    background-color: #5500ff;
+}
+
+.headBlock:nth-child(5){
+    background-color: #d94633;
+}
+
+.headBlock:nth-child(6){
+    background-color: #cb39c7;
+}
+
+.main{
+    width: auto ;
+    height: auto;
+    display: flex;
+}
+
+.left{
+    width: 25%;
+}
+
+.right{
+    width: 75%;
+}
+
+.lBlock{
+    width: auto;
+    background-color: red;
+    height: 80px;
+    margin: 5px 10px 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;
+}
+
+.smallIcon{
+    width: 10px;
+    height: 10px;
+    background-image: url("https://www.seekpng.com/png/full/866-8666926_png-file-white-arrow-button-png.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.slider{
+    width: auto;
+    height: 200px;
+    background-image: url("https://img.freepik.com/premium-photo/beautiful-winter-forest-with-fir-trees-and-falling-snowflakes_715074-228.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 5px 0 10px 5px;
+    display: flex;
+    font-size: 10pt;
+}
+
+.leftPart,.rightPart{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightPart>.arrow{
+    width: 60px;
+    height: 60px;
+    background-image: url("https://cdn.icon-icons.com/icons2/2131/PNG/512/next_arrow_icon_131519.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.leftPart>.arrow{
+    width: 60px;
+    height: 60px;
+    background-image: url("https://cdn.icon-icons.com/icons2/2131/PNG/512/next_arrow_icon_131519.png");
+    background-position: center;
+    background-size: cover;
+    transform: scaleX(-1);
+}
+
+.midPart{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #48c536;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.underSlider{
+    width: auto;
+    height: 100px;
+    display: flex;
+    margin: 15px -10px 0 -5px;
+}
+
+.underSliderBlock{
+    width: 50%;
+    height: 100%;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10pt;
+    padding: 0 5px;
+}
+
+.underSliderBlock:nth-child(1){
+    background-color: #e7c116;
+}
+
+.underSliderBlock:nth-child(2){
+    background-color: #3faeee;
+}
+
+.icons{
+    width: auto;
+    height: 150px;
+    margin: 15px -10px 0 -5px;
+    display: flex;
+}
+
+.phrase{
+    width: auto;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    font-size: 20pt;
+    margin: 15px -10px 0 -5px;
+}
+
+.iconBlock{
+    background-color: aqua;
+    width: 33%;
+    height: 100%;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 10pt;
+    text-align: center;
+    position: relative;
+
+}
+
+.iconBlock:nth-child(1){
+    background-color: #48c536;
+}
+.iconBlock:nth-child(2){
+    background-color: #5500ff;
+}
+.iconBlock:nth-child(3){
+    background-color: #d94633;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.iconBlock:nth-child(1)>.icon{
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/utility/save-44.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 10px;
+}
+.iconBlock:nth-child(2)>.icon{
+    background-image: url("https://static.thenounproject.com/png/2819200-200.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 10px;
+}
+.iconBlock:nth-child(3)>.icon{
+    background-image: url("https://cdn3.iconfinder.com/data/icons/glypho-generic-icons/64/cog-settings-512.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 10px;
+}
+.text{
+    position: absolute;
+    top: 70px;
+    padding: 0 10px;
+}
+.footer{
+    background-color: #1e1c1c;
+    margin-top: 15px;
+    font-size: 10pt;
+    display: flex;
+}
+.links{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.linkIcon{
+    width: 30px;
+    height: 30px;
+}
+.linkIcon:nth-child(1){
+    background-image: url("https://www.pngplay.com/wp-content/uploads/12/Vkontakte-Logo-Transparent-Clip-Art-PNG.png");
+    background-size: cover;
+    background-position: center;
+}
+.linkIcon:nth-child(2){
+    background-image: url("https://rovesnik-zar.ru/wp-content/uploads/kak-pomenyat-familiyu-v-odnoklassnikah.png");
+    background-size: cover;
+    background-position: center;
+}
+.linkIcon:nth-child(3){
+    background-image: url("https://clicknathan.com/wp-content/uploads/2014/02/fb-icon-html-css-only.png");
+    background-size: cover;
+    background-position: center;
+
+}
+.linkIcon:nth-child(4){
+    background-image: url("https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Twitter.png");
+    background-size: cover;
+    background-position: center;
+}
+.linkIcon:nth-child(5){
+    background-image: url("https://cdn-icons-png.flaticon.com/512/145/145804.png");
+    background-size: cover;
+    background-position: center;
+}
+.creator{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rights{
+    width: 33%;
+    display: flex;
+    justify-content: right;
+    align-items: center ;
+    padding-right: 10px;
+}
